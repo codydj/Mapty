@@ -1,0 +1,33 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000M\u0000a\u0000p\u0000t\u0000y\u0000\r\u0000 \u0000",
+  "default": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codydj/Mapty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codydj/Mapty/issues"
+  },
+  "homepage": "https://github.com/codydj/Mapty#readme",
+  "dependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.13.0",
+    "parcel": "^2.0.0-beta.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0"
+  },
+  "babel": {
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  }
+}
